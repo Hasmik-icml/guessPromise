@@ -1,0 +1,21 @@
+
+.container{
+    width: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: green;
+    border-style: none;
+}
+.guess{
+    border-style: none;
+    background-color: darkseagreen;
+}
+.inputNumber{
+    outline: none;
+    border-style: none;
+    background-color: darkseagreen;
+    text-align: center;
+    width: 50px;
+}
