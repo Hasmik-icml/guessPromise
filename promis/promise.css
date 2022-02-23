@@ -1,5 +1,9 @@
-
-.container{
+body{
+    display:flex; 
+    text-align: center;
+    min-height:100vh;
+}
+/* .container{
     width: 700px;
     text-align: center;
     display: flex;
@@ -7,10 +11,27 @@
     font-size: 20px;
     color: green;
     border-style: none;
+} */
+.container{
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 4px 13px 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: inline-block;
+    justify-content: center;
+    vertical-align: bottom;
+    padding: 50px;
 }
+
 .guess{
     border-style: none;
     background-color: darkseagreen;
+    box-shadow: 0px 2px 6px 0px;
 }
 .inputNumber{
     outline: none;
@@ -18,4 +39,8 @@
     background-color: darkseagreen;
     text-align: center;
     width: 50px;
+    box-shadow: 0px 2px 6px 0px;
+}
+.divs{
+    display: inline-block;
 }
